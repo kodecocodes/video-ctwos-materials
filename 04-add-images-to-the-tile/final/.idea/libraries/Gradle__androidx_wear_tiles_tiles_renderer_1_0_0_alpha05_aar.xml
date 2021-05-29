@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.wear.tiles:tiles-renderer:1.0.0-alpha05@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d783e2db5e3fcedf80551ba8c7c544e8/transformed/jetified-tiles-renderer-1.0.0-alpha05/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d783e2db5e3fcedf80551ba8c7c544e8/transformed/jetified-tiles-renderer-1.0.0-alpha05/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d783e2db5e3fcedf80551ba8c7c544e8/transformed/jetified-tiles-renderer-1.0.0-alpha05/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d783e2db5e3fcedf80551ba8c7c544e8/transformed/jetified-tiles-renderer-1.0.0-alpha05/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.wear.tiles/tiles-renderer/1.0.0-alpha05/e819dc40e7e3fe2c8542d601779676a1dd5cefda/tiles-renderer-1.0.0-alpha05-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+  compileSdkVersion rootProject.ext.compileSdkVersion
+
+  defaultConfig {
+    applicationId "com.raywenderlich.android.wearostile"
+    minSdkVersion rootProject.ext.minSdkVersion
+    targetSdkVersion rootProject.ext.targetSdkVersion
+    versionCode 1
+    versionName "1.0"
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+
+  kotlinOptions {
+    jvmTarget = "1.8"
+  }
+
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+}
+
+dependencies {
+
+  // Kotlin
+  implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+  // Helper library for transforming coroutines to ListenableFutures
+  implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.4.2'
+
+  // TUTORIAL DEPENDENCIES HERE
+
+  // General Wear functionality
+  implementation 'androidx.wear:wear:1.1.0'
+  // Tiles functionality
+  implementation "androidx.wear.tiles:tiles:1.0.0-alpha05"
+  // Preview Tiles in an Activity for testing purposes
+  debugImplementation "androidx.wear.tiles:tiles-renderer:1.0.0-alpha05"
+
+}
