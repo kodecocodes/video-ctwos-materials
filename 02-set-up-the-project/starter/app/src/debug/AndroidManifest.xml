@@ -35,8 +35,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.raywenderlich.android.wearostile">
 
-  <uses-feature android:name="android.hardware.type.watch" />
-
   <application>
 
   </application>
